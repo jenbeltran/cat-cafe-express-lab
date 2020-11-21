@@ -110,10 +110,11 @@ BONUS: if any fields are blank, send a 400 error
 BONUS: if all fields are filled out, show the list of cats
 
 
-TODO 4:create a delete route that can delete one cat then shows the updated list of cats
+TODO 5:create a delete route that can delete one cat then shows the updated list of cats
 
+TODO 5: create a GET route for one cat
 
-TODO 5: create a put request to be able to edit one cat (hint: array splice)
+TODO 6: create a put request to be able to edit one cat (hint: array splice)
 
 BONUS: if cat is not found in database, send 404 error "Cannot find cat"
 
