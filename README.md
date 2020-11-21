@@ -97,22 +97,26 @@ export default cats;
 TODO: PLEASE SEE link for what a full website would look like
 https://www.figma.com/file/PXnLz4Suyfg4R3yxwHnlc4/Cat-Cafe-Express-Lab?node-id=3%3A81
 
-TODO: create a GET route for landing page
+TODO 1: create a GET route for landing page
 
 
-TODO: create a GET route for all cats
+TODO 2: create a GET route for all cats
 
 
-TODO: create a POST route to add a cat to the database
+TODO 3: create a POST route to add a cat to the database
+
 BONUS: if any fields are blank, send a 400 error
+
 BONUS: if all fields are filled out, show the list of cats
 
 
-TODO:create a delete route that can delete one cat then shows the updated list of cats
+TODO 4:create a delete route that can delete one cat then shows the updated list of cats
 
 
-TODO: create a put request to be able to edit one cat (hint: array splice)
+TODO 5: create a put request to be able to edit one cat (hint: array splice)
+
 BONUS: if cat is not found in database, send 404 error "Cannot find cat"
+
 BONUS: if ID in body doesn't match the ID in the URI, send 400 error "Bad Request"
 
 
