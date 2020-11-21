@@ -70,28 +70,21 @@ router.get('/', (req, res) => res.send('Hello world'))
  13. Insert the following array in cats.js
  
  ```json
- let cats = [
+let cats = [
   {
+    id: 1,
     name: "Tuna",
     breed: "Siamese",
-    gender: "Female",
-    neutered: true,
   },
   {
+    id: 2,
     name: "Chester",
     breed: "Tabby",
-    gender: "Male",
-    neutered: false,
   },
-  {
-    name: "Blue",
-    breed: "Naked",
-    gender: "Female",
-    neutered: false,
-  },
+  { id: 3, name: "Blue", breed: "Naked" },
 ];
 
-export default cats
+export default cats;
  ```
  
   14. Let make sure we have access to our cats database. In `router.js`, add the following import statement after the other import statements:
